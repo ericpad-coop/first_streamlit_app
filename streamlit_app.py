@@ -71,7 +71,7 @@ if streamlit.button('Add a fruit to the list'):
   streamlit.text(back_from_function)
   
 #streamlit.write('The user entered ', add_fruit_choice)
-#my_cur.execute("INSERT INTO fruit_load_list values ('from streamlit')")
+#my_cur.execute("INSERT INTO fruit_load_list values ('" + new_fruit + "')")
 
 
 streamlit.text('** End Snowflake test **')
