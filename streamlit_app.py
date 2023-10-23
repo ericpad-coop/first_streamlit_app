@@ -51,6 +51,7 @@ streamlit.dataframe(my_data_rows)
 
 add_fruit_choice = streamlit.text_input('What fruit would you like information about?','Banana')
 streamlit.write('The user entered ', add_fruit_choice)
+my_cur.execute("INSERT INTO fruit_load_list value ('from streamlit')")
 
 
 streamlit.text('** End Snowflake test **')
